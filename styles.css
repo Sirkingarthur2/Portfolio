@@ -59,8 +59,6 @@
 }
 
 
-
-
 .header {
     background: #35424a;
     color: #ffffff;
@@ -72,7 +70,6 @@
 .paragraph-text-container {
     display: flex;
     justify-content: center; 
-
 }
 
 .paragraph-text {
@@ -142,8 +139,8 @@
 
 .section1 {
     margin: 10% 5% 10% 5%;
-    display: inline;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .logo-title{
@@ -178,7 +175,6 @@
 
 .section2 {
     padding: 20px;
-    width: 15%;
     background: #ffffff;
     border-radius: 5px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -210,10 +206,12 @@
 }
 
 .footer {
+    margin-top: 10%;
+}
+
+.footer-content {
     text-align: center;
     padding: 10px 0;
     background: #35424a;
     color: #ffffff;
-    margin-top: auto;
-    margin-bottom: auto;
 }

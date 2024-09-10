@@ -1,0 +1,53 @@
+.section {
+    padding: 2%;
+    width: 80%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-v1 {
+    padding: 2%;
+    width: 80%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.another-flipping-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.project {
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 15px;
+}
+
+.wizard {
+    background-color: bisque;
+}
+
+.goat {
+    background-color: bisque;
+}
+
+.project-one-description {
+    text-align: start;
+}
+
+.project-two-description {
+ text-align: start;
+}
+
+.a {
+    text-align: center;
+}

@@ -146,23 +146,34 @@
     
 }
 
-
+.logo-title{
+    margin-left: 0%;
+}
+.all-logos-container {
+    display: flex;
+    justify-content: center;
+}
+.title-and-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.all-logos {
+    grid-column: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;    
+}
 .pic {
     height: 6em;
     width: auto;
 }
-
 .logo-container {
     display: flex;
     justify-content: center;
 }
 
-.all_logos {
-    grid-column: 2/3;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 
 .section2 {
@@ -206,4 +217,3 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-

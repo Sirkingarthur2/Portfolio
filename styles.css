@@ -27,38 +27,6 @@
 }
 
 
-
-
-.my-skills-header {
-    margin-top: -2%;
-}
-
-.skills-list {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 1%;
-    width: 80%;
-}
-
-.skills-list-wrap {
-    display: flex;
-    justify-content: center;
-}
-
-.skills-list-content {
-    margin-top: -1%;
-    margin-bottom: -1%;
-    margin-right: 3%;
-    margin-left: 3%;
-}
-
-.skills-list-container {
-    display: flex;
-    justify-content: center;
-}
-
-
 .header {
     background: #35424a;
     color: #ffffff;
@@ -96,7 +64,6 @@
     margin: 3%;
 }
 
-
 .project-button-container {
     display: flex;
     justify-content: center;
@@ -118,8 +85,13 @@
     color: #06bb36;
 }
 
-
 .section-container {
+    display: flex;
+    justify-content: center;
+    margin: 10% 0% 0% 0%;
+}
+
+.skills-header {
     display: flex;
     justify-content: center;
 }
@@ -143,18 +115,21 @@
     justify-content: center;
 }
 
-.logo-title{
-    margin-left: 0%;
+.logo-title {
+    margin-left: 30px;
 }
+
 .all-logos-container {
     display: flex;
     justify-content: center;
 }
+
 .title-and-logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .all-logos {
     grid-column: 2/3;
     display: flex;
@@ -162,16 +137,17 @@
     justify-content: center;
     width: 80%;    
 }
+
 .pic {
     height: 6em;
     width: auto;
+    margin: 3%;
 }
+
 .logo-container {
     display: flex;
     justify-content: center;
 }
-
-
 
 .section2 {
     padding: 20px;
@@ -186,7 +162,7 @@
 }
 
 .linkedin {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -212,6 +188,52 @@
 .footer-content {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .my-image {
+        width: 80%;
+    }
+
+    .paragraph-text {
+        font-size: 18pt;
+        width: 90%;
+    }
+
+    .project-button {
+        font-size: 14pt;
+    }
+
+    .footer-content {
+        font-size: 14pt;
+    }
+
+    .header {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .first-h1, .about {
+        font-size: 24pt;
+    }
+
+    .paragraph-text {
+        font-size: 16pt;
+    }
+
+    .project-button {
+        font-size: 12pt;
+    }
+
+    .footer-content {
+        font-size: 12pt;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .footer {
+        margin-bottom: 0%
+    }
 }

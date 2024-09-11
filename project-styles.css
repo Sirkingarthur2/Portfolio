@@ -20,11 +20,6 @@
     align-items: center;
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
-    margin: 3%;
-}
 
 .project {
     margin-bottom: 20px;

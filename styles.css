@@ -6,40 +6,42 @@
     padding: 0;
     background-color: #f4f4f4;
 }
-
-.my-image {
-    border: 6px outset silver;
-    display: block;
-    margin: 0;
-    width: 20%;
+.header {
+    background: #395d53;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    height: 50%;
 }
-
+.first-h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+.image-container-container {
+    display: flex;
+    justify-content: center;
+}
 .my-image-container {
     display: flex;
     justify-content: center;
     padding: 0;
     margin: 0;
 }
-
-.image-container-container {
-    display: flex;
-    justify-content: center;
+.my-image {
+    border: 6px outset silver;
+    display: block;
+    margin: 0;
+    width: 20%;
 }
-
-
-.header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-    height: 50%;
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
 }
-
 .paragraph-text-container {
     display: flex;
     justify-content: center; 
 }
-
 .paragraph-text {
     width: 60%;    
     font-family: 'Times New Roman', Times, serif;
@@ -47,15 +49,41 @@
     text-shadow: 4px 4px 8px rgb(0, 0, 0);
 }
 
-.first-h1 {
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 4px 4px 8px rgb(0, 0, 0);
-}
 
-.view-my-projects-hear {
+
+
+
+.section-container {
     display: flex;
     justify-content: center;
+    margin: 10% 0% 0% 0%;
+}
+.section {
+    padding: 2%;
+    width: 80%;
+    background: #395d53;
+    border-radius: 5px;
+
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.skills-header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.view-my-projects {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.view-my-resume {
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 .projects {
@@ -85,38 +113,22 @@
     color: #06bb36;
 }
 
-.section-container {
-    display: flex;
-    justify-content: center;
-    margin: 10% 0% 0% 0%;
-}
-
-.skills-header {
-    display: flex;
-    justify-content: center;
-}
-
-.section {
-    padding: 2%;
-    width: 80%;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-.about {
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 4px 4px 8px rgb(0, 0, 0);
-}
-
 .section1 {
     margin: 10% 5% 10% 5%;
     display: flex;
     justify-content: center;
 }
 
+
+.logo-title-container {
+    text-align: center;
+}
 .logo-title {
     margin-left: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 .all-logos-container {
@@ -128,6 +140,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .all-logos {
@@ -151,7 +165,7 @@
 
 .section2 {
     padding: 20px;
-    background: #ffffff;
+    background: #395d53;
     border-radius: 5px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
@@ -161,12 +175,12 @@
     width: 50%;
 }
 
-.linkedin {
-    color: rgb(0, 0, 0);
+.link {
+    color: grey;
     text-decoration: none;
 }
 
-.linkedin:hover {
+.link:hover {
     text-decoration: underline;
     color: #00a6ff;
 }
@@ -188,7 +202,7 @@
 .footer-content {
     text-align: center;
     padding: 10px 0;
-    color: #000000;
+    color: grey;
 }
 
 @media (max-width: 768px) {
